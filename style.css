@@ -1,0 +1,251 @@
+/*
+Theme Name: Attire by Natalia
+Theme URI: http://attirebynatalia.com/
+Description: A theme for Attire By Natalia, a lyfestyle blog, created by her hunk of a boyfriend.
+Author: Luke Larson
+Author URI: http://pirhosoft.com
+Version: 1.0
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body
+{
+	background: #FFFFFF !important;
+	font-family: 'Poppins', sans-serif;
+}
+
+#header
+{
+	position: relative;
+}
+
+#header .title
+{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 6vw;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#header .title a
+{
+	color: #FFFFFF;
+	transition: .25s;
+}
+
+#header .title a:hover, a:focus, a:active, p a:link
+{
+	color: #ffa9a5;
+	transition: .25s;
+}
+
+#header .description
+{
+	font-family: 'Kaushan Script', cursive;
+	color: #FFFFFF;
+	font-size: 2vw;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.navigation-bar
+{
+	max-width: 1600px;
+	width: 100%;
+}
+
+.post-preview
+{
+	min-width: 100%;
+}
+
+.post-preview img
+{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 20px;
+	height: auto;
+}
+
+.post-preview .meta
+{
+	height: 100%;
+}
+
+.post-preview .meta .title
+{
+	font-family: 'Pacifico', cursive;
+}
+
+.post-preview .meta .title a
+{
+	color: black;
+	transition: .25s;
+}
+
+.post-preview .meta .title a:hover, a:focus, a:active, p a:link
+{
+	color: #ffa9a5;
+	transition: .25s;
+}
+
+.post-preview .meta .category
+{
+	background: #ffa9a5;
+	color: #000000;
+	font-weight: bold;
+}
+
+.post-preview .meta .categories .category:hover
+{
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.16);
+	transition: 0.5s;
+}
+
+.time
+{
+	background: black;
+}
+
+.time .text
+{
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.about-me, .instagram
+{
+	min-width: 100%;
+}
+
+.bullet
+{
+	width: 4px;
+	height: 4px;
+	background: black;
+	border-radius: 50%;
+}
+
+.right-column .text
+{
+	font-family: 'Pacifico', cursive;
+}
+
+.about-me .image
+{
+	width: 100%;
+	border-radius: 20px;
+}
+
+.instagram .wdi_feed_thumbnail_1 .wdi_photo_overlay:hover
+{
+	background-color: rgba(255, 255, 255, .3);
+	transition: 0.4s;
+}
+
+.wdi_lightbox_theme_1 .wdi_btn_container .wdi_ctrl_btn_container, .wdi_lightbox_theme_1 .wdi_btn_container .wdi_toggle_container
+{
+    background-color: rgba(0,0,0,0.80);
+}
+
+.wdi_lightbox_theme_1 #wdi_spider_popup_left-ico, .wdi_lightbox_theme_1 .wdi_image_container #wdi_spider_popup_right-ico, 
+.wdi_lightbox_theme_1 #wdi_spider_popup_left-ico, .wdi_lightbox_theme_1 .wdi_image_container #wdi_spider_popup_left-ico
+{
+	background-color: #20c997;
+	opacity: 1.0;
+}
+
+.wdi_lightbox_theme_1 #wdi_spider_popup_left-ico, .wdi_lightbox_theme_1 .wdi_image_container #wdi_spider_popup_right-ico:hover, 
+.wdi_lightbox_theme_1 #wdi_spider_popup_left-ico, .wdi_lightbox_theme_1 .wdi_image_container #wdi_spider_popup_left-ico:hover 
+{
+	color: #FFFFFF;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.16);
+}
+
+.wdi_spider_popup_wrap.wdi_lightbox_theme_1 .wdi_spider_popup_close
+{
+	background-color: #20c997;
+	color: #FFFFFF;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	font-size: 25px;
+	right: -20px;
+	top: -20px;
+}
+
+.wdi_spider_popup_wrap.wdi_lightbox_theme_1 .wdi_spider_popup_close:hover
+{
+	color: #FFFFFF;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.16);
+	transition: 0.5s;
+}
+
+.post .title
+{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	margin: 10px;
+}
+
+.post .image
+{
+	max-width: 100%;
+}
+
+.footer
+{
+	padding: 20px;
+	background-color: black;
+	border-top: 3px solid #ffa9a5 !important
+}
+
+.footer-text
+{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+}
+
+#top-button
+{
+	visibility: hidden;
+	opacity: 0;
+	transition: .5s;
+	position: fixed;
+	bottom: 7px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 50%;
+	padding-bottom: 6px;
+}
+
+#top-button:hover
+{
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.16);
+}
+
+#top-button.shown
+{
+	visibility: visible;
+	opacity: 1;
+}
