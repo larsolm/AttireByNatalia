@@ -24,7 +24,7 @@
  * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
  *
  */
-.mdb-color.lighten-5 {
+ .mdb-color.lighten-5 {
   background-color: #d0d6e2 !important; }
 
 .mdb-color.lighten-4 {
@@ -1179,10 +1179,10 @@
   background-color: #9933cc !important; }
 
 .default-color {
-  background-color: #2bbbad !important; }
+  background-color: #BF5989 !important; }
 
 .default-color-dark {
-  background-color: #00695c !important; }
+  background-color: #8c295c !important; }
 
 .info-color {
   background-color: #33b5e5 !important; }
@@ -4731,15 +4731,15 @@ a.waves-effect, a.waves-light {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 .btn-default {
-  background-color: #2bbbad !important;
+  background-color: var(--primary-color)!important;
   color: #fff !important; }
   .btn-default:hover {
-    background-color: #30cfc0; }
+    background-color: var(--primary-color-light); }
   .btn-default:focus, .btn-default.focus {
     -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
   .btn-default:focus, .btn-default:active, .btn-default.active {
-    background-color: #186860; }
+    background-color: var(--primary-color-dark); }
   .btn-default.dropdown-toggle {
     background-color: #2bbbad !important; }
     .btn-default.dropdown-toggle:hover, .btn-default.dropdown-toggle:focus {
@@ -6385,9 +6385,9 @@ a.waves-effect, a.waves-light {
     background-color: #ff3547; }
 
 .pagination.pg-teal .page-item.active .page-link {
-  background-color: #2bbbad; }
+  background-color: var(--primary-color); }
   .pagination.pg-teal .page-item.active .page-link:hover {
-    background-color: #2bbbad; }
+    background-color: var(--primary-color); }
 
 .pagination.pg-dark-grey .page-item.active .page-link {
   background-color: #37474f; }
